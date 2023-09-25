@@ -3,7 +3,7 @@ import java.util.Map;
 
 public class Borsa {
     private Map<String, Double> azioni = new HashMap<>();
-    private int i;
+
     public Borsa(){
         azioni.put("Ferrari", 255.0);
         azioni.put("Apple", 123.0);
