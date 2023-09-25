@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Info">
+  <grid id="27dc6" binding="infoPanel" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="1216" height="400"/>
+    </constraints>
+    <properties>
+      <font name="Bodoni MT Black" size="24" style="3"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="cef3b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Bodoni MT Black" size="22" style="3"/>
+          <foreground color="-16777216"/>
+          <text value="Progetto bancomat di Francesco Tacchino"/>
+        </properties>
+      </component>
+      <vspacer id="551d8">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="4" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="ac9" class="javax.swing.JTextArea" binding="autoreFrancescoTacchinoDataTextArea" default-binding="true">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="1" fill="1" indent="2" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="18"/>
+          <text value="Autore: Francesco Tacchino&#10;Data:   14/01/2023&#10;Software: IntelliJ&#10;&#10;Questo programma ti permette di entrare nel tuo&#10;conto corrente e di prelevare o versare soldi&#10;all'interno."/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
